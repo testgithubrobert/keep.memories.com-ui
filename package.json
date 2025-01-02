@@ -33,5 +33,21 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "keep memories photo gallery ui",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testgithubrobert/keep.memories.com-ui.git"
+  },
+  "keywords": [
+    "react.js",
+    "typescript"
+  ],
+  "author": "robert sims",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testgithubrobert/keep.memories.com-ui/issues"
+  },
+  "homepage": "https://github.com/testgithubrobert/keep.memories.com-ui#readme"
 }

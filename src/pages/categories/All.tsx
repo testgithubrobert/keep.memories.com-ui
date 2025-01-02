@@ -41,7 +41,7 @@ function All() {
         <NavigationBarComponent />
         <br />
         <section className="all">
-          <h1>Beautiful photos in our gallery</h1>
+          <h1>Photos in our gallery to get you inspired</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
             optio rem quidem fugiat voluptatum facere deleniti commodi! Debitis
@@ -102,7 +102,13 @@ function All() {
         </section>
       </>
     ) : (
-      <img src="/3363936.webp" alt="" />
+      <>
+        <NavigationBarComponent />
+        <div className="img-wrapper">
+          <img src="/3363936.webp" alt="" />
+          <p>No photos were found, try reloading the page!</p>
+        </div>
+      </>
     );
   } catch (error) {
     console.error(error);
