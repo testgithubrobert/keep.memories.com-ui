@@ -83,19 +83,13 @@ function UploadPhotoForm() {
             } else if (categories === "") {
               warningElement.textContent = "All fields are required!";
             } else {
-              Upload(
-                title,
-                url,
-                categories,
-                admin.username,
-                shareStatus,
-                admin.token
-              );
+              Upload(title, url, categories, admin.username, shareStatus);
+              warningElement.textContent = "photo has been uploaded!";
               warningElement.style.color = "#fff";
               warningElement.style.fontWeight = "bold";
               window.setTimeout(() => {
                 window.location.reload();
-              }, 700 as number);
+              }, 2500 as number);
             }
           }}
         >
